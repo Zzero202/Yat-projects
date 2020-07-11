@@ -1,0 +1,332 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.sec1{
+    background-image: linear-gradient(to right,rgba(51, 75, 232,0.5),rgba(87, 171, 250,0.5)),url(../images/hero-bg.jpg);
+    height:900px;
+    background-size:100% 100%;
+}
+nav{
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d-flex{
+    width:80%;
+    margin: auto;
+    display: flex
+}
+nav .container .logo{
+    width:40%;
+    color:whitesmoke;
+    line-height:50px;
+    font-size:30px;
+    font-family: sans-serif;
+}
+nav .container .nav-contents{
+    width:60%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+nav .container .nav-contents ul li{
+    line-height: 50px;
+    font-size:25px;
+    color:whitesmoke;
+    transition:all .5s;
+    text-transform: capitalize;
+}
+nav .container .nav-contents ul li:hover{
+    color:salmon;
+}
+.container .content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-section{
+    width:50%;
+    font-size:50px;
+    color:whitesmoke;
+    max-width: 35%;
+    text-transform: capitalize;
+}
+.left-section p{
+    font-size:20px;
+    margin-top: 5px;
+    text-transform: none;
+    
+}
+.left-section button{
+    font-size:20px;
+    margin-top: 10px;
+    padding:15px;
+    color:#fff;
+    text-transform: capitalize;
+    outline: none;
+    border:2px solid whitesmoke;
+    background:transparent;
+    border-radius:10px;
+    transition: all .2s;
+    
+}
+.left-section button:hover{
+    background-color:springgreen ;
+    color:salmon;
+    
+}
+.right-section{
+    position: relative;
+    margin-top:50px;
+    width:50%;
+    margin-left:200px;
+
+}
+.image1{
+    position: absolute;
+    left:140px;
+    top:60px;
+ 
+}
+.sec2{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec2 h1{
+    background:linear-gradient(to bottom ,#017e97,#2edcff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size:50px;
+     text-align: center;
+    
+}
+.sec3{
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.sec3 i{
+    font-size:30px;
+    color:#fff;
+    background:rgb(37, 143, 241);
+    padding:20px 20px;
+    border-radius: 50%;
+    margin-bottom:5px;
+    box-shadow:0px 1px 5px black;
+}
+.sec3 h3{
+    text-transform: capitalize;
+}
+.sec3 h3,p,i{
+    margin-top:10px;
+}
+.sec4{
+    margin-top:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+.sec4 img{
+    height:400px;
+}
+.sec5{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+  
+}
+.sec5 h3{
+    text-align: left;
+    color:rgb(37, 143, 241)
+}
+.sec5 h3,h2,p{
+    padding:3px;
+}
+.sec5 p{
+    color:gray;
+    max-width:200px;
+}
+.sec3 p{
+    color:gray;
+}
+.sec4 p{
+    color:gray;
+}
+.sec6{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:150px;
+}
+.sec6-contents{
+    width:50%;
+    margin-left:300px;
+}
+.sec6 img{
+    width:50%;
+}
+.sec6 p{
+    max-width:500px;
+    margin-top:10px;
+}
+.sec6 button{
+    background-image:linear-gradient(to right,rgb(51, 75, 232),rgb(87, 171, 250) );
+    margin-top:20px;
+    padding:15px 20px;
+    outline: none;
+    border:none;
+    color:#fff;
+    transition: all .2s;
+}
+.sec6 button:hover{
+    background-image:linear-gradient(to right,rgb(87, 171, 250),rgb(51, 75, 232) );
+
+}
+.sec7{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:150px;
+}
+
+.sec7 img{
+    width:50%;
+    margin-left:200px;
+}
+.sec7-conetnts1{
+    margin-right:300px
+}
+.sec7 p{
+    max-width:500px;
+    margin-top:10px;
+}
+.sec7 button{
+    background-image:linear-gradient(to right,rgb(51, 75, 232),rgb(87, 171, 250) );
+    margin-top:20px;
+    padding:15px 20px;
+    outline: none;
+    border:none;
+    color:#fff;
+    transition: all .2s;
+}
+.sec7 button:hover{
+    background-image:linear-gradient(to right,rgb(87, 171, 250),rgb(51, 75, 232) );
+
+}
+.sec8 h1{
+    background:linear-gradient(to bottom ,#017e97,#2edcff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size:50px;
+     text-align: center;
+     margin-top:50px;
+    
+}
+.sec8 {
+     text-align: center;
+     margin-top:50px;
+    
+}
+.sec8 h3{
+    margin-top: 10px;
+}
+.sec8 img{
+    width:75px;
+    border-radius:150px;
+    margin-top:20px;
+}
+.sec8 .imageone{
+    display:block;
+    margin:auto;
+}
+
+.ball{
+    border-radius:50%;
+    width:5px;
+    background:transparent;
+    border:1px solid blue;
+    height:5px;
+    margin:0 10px 0 10px;
+    display:inline-block;
+    margin-top:30px;
+}
+.b1{
+    background:#017e97
+}
+.sec9{
+    background:linear-gradient(to right ,#017e97,#2edcff);
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top:50px; */
+    text-align: center;
+}
+.sec9 h1{
+    font-size:50px;
+    color:#fff;
+    max-width:450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec9 button{
+    background:black;
+    color:#fff;
+    outline: none;
+    border:none;
+    padding:12px 20px;
+    
+    
+
+}
+footer{
+    position: relative;
+}
+.foot{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:100px;
+   
+}
+.footer-contents i{
+    margin-left:20px;
+    margin-top:20px;
+}
+.footer-contents h3{
+  text-align: center;
+  margin-bottom:20px
+}
+.footer-contents ul{
+    display:flex;
+    flex-direction: column;
+
+}
+.footer-contents ul li{
+    padding:10px;
+    text-align: left;
+}
